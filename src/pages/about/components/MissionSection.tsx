@@ -48,7 +48,7 @@ const MissionSection = () => {
         <div className="bg-[#1c2e0f] rounded-3xl p-10 md:p-14 text-center">
           <h3 className="text-white text-2xl md:text-3xl font-bold mb-4">Ready to Book a Detection?</h3>
           <p className="text-white/70 text-base mb-8 max-w-lg mx-auto">
-            Liberty is ready to help protect your home. Detections start at $499 for homes under 1,500 sq. ft.
+            Liberty is ready to help protect your home. Detections start as low as $299, with pricing based on the size and scope of your property.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -57,7 +57,7 @@ const MissionSection = () => {
             >
               Book a Detection
             </Link>
-            <a
+            
               href="tel:7163277099"
               className="border border-white/30 hover:border-white text-white font-semibold px-8 py-3.5 rounded-full transition-colors whitespace-nowrap cursor-pointer"
             >
