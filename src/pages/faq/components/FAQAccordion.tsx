@@ -130,11 +130,11 @@ const faqs: FAQCategory[] = [
     items: [
       {
         q: 'How much does a detection cost?',
-        a: 'Our pricing is straightforward: $499 for homes under 1,500 sq. ft. and $749 for homes over 1,500 sq. ft. Each detection includes a full walkthrough of all accessible living areas and a real-time verbal report of findings. Payment is collected at the time of booking.',
+        a: 'Pricing varies based on the size and scope of the detection, so we don\'t quote an exact number upfront. That said, many homes start as low as $299. When you submit a request, we\'ll follow up to learn more about your property and give you an accurate quote before anything is scheduled.',
       },
       {
-        q: 'Why do I pay upfront when I book?',
-        a: 'We collect payment at the time of booking to secure your appointment slot. This ensures that our schedule is protected for you and helps us plan our routes and availability efficiently. If you need to cancel or reschedule, please contact us as early as possible.',
+        q: 'When and how do I pay?',
+        a: 'We don\'t charge anything upfront. Payment is collected at the time of your appointment, when WNY Mold Dogs arrives at your property. We currently accept cash or check.',
       },
       {
         q: 'What is your cancellation policy?',
