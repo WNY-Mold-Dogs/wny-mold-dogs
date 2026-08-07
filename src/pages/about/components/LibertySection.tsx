@@ -9,7 +9,7 @@ const LibertySection = () => {
             <div className="relative">
               <div className="w-72 h-72 md:w-96 md:h-96 rounded-3xl overflow-hidden">
                 <img
-                  src="https://static.readdy.ai/image/b3bbb2d7e7beeae7f6f43ea4c6be5d44/838b3348bc3c025527d8b09334c9e212.png"
+                  src="/images/838b3348bc3c025527d8b09334c9e212.png"
                   alt="Liberty, German Shepherd K9 Mold Detection Partner"
                   className="w-full h-full object-cover object-top"
                 />
@@ -97,7 +97,7 @@ const LibertySection = () => {
             <div className="relative">
               <div className="w-72 h-72 md:w-96 md:h-96 rounded-3xl overflow-hidden">
                 <img
-                  src="https://storage.helloreaddy.io/project_files/79114f05-41e3-4c1f-a4b7-132d8791291d/ba18d6e1-f6db-4d6e-82c9-62fbf51fe0e1_compressed_IMG_7379.webp"
+                  src="/images/ba18d6e1-f6db-4d6e-82c9-62fbf51fe0e1_compressed_IMG_7379.webp"
                   alt="Liberty with AKC Canine Good Citizen ribbon"
                   className="w-full h-full object-cover object-top"
                 />
@@ -119,7 +119,7 @@ const LibertySection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="rounded-2xl overflow-hidden">
             <img
-              src="https://storage.helloreaddy.io/project_files/79114f05-41e3-4c1f-a4b7-132d8791291d/4265836d-aaa9-4e8a-a6d7-7a107db3ce81_compressed_Screenshot-2026-08-02-144235.webp"
+              src="/images/4265836d-aaa9-4e8a-a6d7-7a107db3ce81_compressed_Screenshot-2026-08-02-144235.webp"
               alt="Liberty on the job, focused and alert during a mold detection visit"
               className="w-full h-64 object-cover object-center"
             />
@@ -129,7 +129,7 @@ const LibertySection = () => {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <img
-              src="https://storage.helloreaddy.io/project_files/79114f05-41e3-4c1f-a4b7-132d8791291d/ba317372-366f-4aeb-9146-ab5f096ca06f_compressed_IMG_6856-1.webp"
+              src="/images/ba317372-366f-4aeb-9146-ab5f096ca06f_compressed_IMG_6856-1.webp"
               alt="Liberty relaxing outdoors between detections"
               className="w-full h-64 object-cover object-top"
             />
