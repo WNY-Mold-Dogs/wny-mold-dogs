@@ -69,15 +69,16 @@ const BookingSection = () => {
           : `$${promoApplied.discount} off`
       );
     }
+    data.append('form-name', 'booking');
     try {
-      await fetch('https://readdy.ai/api/form/d7c0qoehe76khnho4sv0', {
+      await fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: data.toString(),
       });
       setSubmitted(true);
     } catch {
-      setSubmitted(true);
+      setSubmitted(false);
     } finally {
       setLoading(false);
     }
@@ -122,10 +123,13 @@ const BookingSection = () => {
           </div>
         ) : (
           <form
-            data-readdy-form
+            name="booking"
+            data-netlify="true"
+            netlify-honeypot="website_alt"
             onSubmit={handleSubmit}
             className="bg-white rounded-2xl p-8 md:p-10 flex flex-col gap-5"
           >
+            <input type="hidden" name="form-name" value="booking" />
             {/* Honeypot */}
             <div className="absolute opacity-0 pointer-events-none" style={{ height: 0, overflow: 'hidden' }} aria-hidden="true">
               <input type="text" name="website_alt" tabIndex={-1} autoComplete="off" readOnly />
