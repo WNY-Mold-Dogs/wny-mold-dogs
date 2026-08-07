@@ -18,6 +18,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css">
   </head>
   <body>
+    <!-- Hidden static form so Netlify detects and registers this form at build time. Do not remove. -->
+    <form name="booking" data-netlify="true" netlify-honeypot="website_alt" hidden>
+      <input type="text" name="first_name" />
+      <input type="text" name="last_name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="property_address" />
+      <input type="text" name="service_type" />
+      <input type="text" name="square_footage" />
+      <input type="text" name="preferred_date" />
+      <textarea name="notes"></textarea>
+      <input type="text" name="promo_code" />
+      <input type="text" name="promo_label" />
+      <input type="text" name="promo_discount" />
+      <input type="text" name="website_alt" />
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
