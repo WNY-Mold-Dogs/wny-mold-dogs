@@ -30,7 +30,7 @@ const HighlightsSection = () => {
           <div className="h-px flex-1 bg-[#d4e8c0]"></div>
           <div className="flex items-center gap-3 px-4">
             <img
-              src="https://static.readdy.ai/image/b3bbb2d7e7beeae7f6f43ea4c6be5d44/7fe2b9714f5b17d13981813ad2ff2fd2.png"
+              src="/images/7fe2b9714f5b17d13981813ad2ff2fd2.png"
               alt="WNY Mold Dogs"
               className="h-10 w-10 object-contain"
             />

@@ -8,22 +8,22 @@ interface Slide {
 
 const slides: Slide[] = [
   {
-    image: 'https://storage.helloreaddy.io/project_files/79114f05-41e3-4c1f-a4b7-132d8791291d/078befe6-1391-4dea-ab23-25d5706ddc58_compressed_PXL_20260424_185236398.webp',
+    image: '/images/078befe6-1391-4dea-ab23-25d5706ddc58_compressed_PXL_20260424_185236398.webp',
     alt: 'Real mold damage found behind drywall during a WNY Mold Dogs detection. Liberty marked this spot and the homeowners confirmed it upon removal',
     caption: 'Liberty marked this section of drywall during a detection visit. The homeowners later removed the wall themselves and found mold exactly where she indicated — precision you cannot get from an air test.',
   },
   {
-    image: 'https://storage.helloreaddy.io/project_files/79114f05-41e3-4c1f-a4b7-132d8791291d/e64403c9-11f3-448a-8a71-937c3be8680f_compressed_Image-from-iOS-28.webp',
+    image: '/images/e64403c9-11f3-448a-8a71-937c3be8680f_compressed_Image-from-iOS-28.webp',
     alt: 'Mold growth discovered on wooden subflooring beneath a dishwasher after Liberty the K9 indicated elevated readings in the area',
     caption: 'Liberty alerted on the dishwasher area despite no visible signs of mold. The homeowner pulled the unit and uncovered this growth on the subfloor beneath it. A hidden problem that would have gone completely unnoticed without her scent-based search.',
   },
   {
-    image: 'https://storage.helloreaddy.io/project_files/79114f05-41e3-4c1f-a4b7-132d8791291d/f4836cb4-bce9-4f67-8a90-3f6e9edd1421_compressed_Image-from-iOS-26.webp',
+    image: '/images/f4836cb4-bce9-4f67-8a90-3f6e9edd1421_compressed_Image-from-iOS-26.webp',
     alt: 'Black mold growing on wall insulation between wooden studs, revealed after paneling was removed following a K9 detection alert',
     caption: 'Liberty signaled repeatedly along this wall. When the homeowners removed the paneling, the insulation behind it was covered in black mold — completely invisible from the room, right where she had been indicating the entire time.',
   },
   {
-    image: 'https://storage.helloreaddy.io/project_files/79114f05-41e3-4c1f-a4b7-132d8791291d/317da391-d896-42ed-b063-4b73491618dc_compressed_Image-from-iOS-27.webp',
+    image: '/images/317da391-d896-42ed-b063-4b73491618dc_compressed_Image-from-iOS-27.webp',
     alt: 'Water damage and mold growth behind exposed plumbing pipes in a wall cavity, discovered after a K9 mold detection visit',
     caption: 'Liberty keyed in on the tub and an access panel behind the bathroom. This was later opened it up and found water damage and mold behind the tub and shower area. Another concealed problem she sniffed out before anyone even suspected it was there.',
   },

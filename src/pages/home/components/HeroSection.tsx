@@ -10,7 +10,7 @@ const HeroSection = () => {
             {/* Brand mark */}
             <div className="flex items-center gap-3 mb-7">
               <img
-                src="https://storage.helloreaddy.io/project_files/79114f05-41e3-4c1f-a4b7-132d8791291d/babc4672-f2d4-4b81-9773-9d4efd433311_compressed_ChatGPT-Image-Aug-7-2026-11_09_21-AM.webp"
+                src="/images/babc4672-f2d4-4b81-9773-9d4efd433311_compressed_ChatGPT-Image-Aug-7-2026-11_09_21-AM.webp"
                 alt="WNY Mold Dogs Logo"
                 className="h-10 w-auto object-contain flex-shrink-0 brightness-0 invert opacity-90"
               />
@@ -48,7 +48,7 @@ const HeroSection = () => {
           <div className="order-1 lg:order-2 flex items-center justify-center lg:justify-end">
             <div className="relative w-full max-w-sm lg:max-w-md">
               <img
-                src="https://storage.helloreaddy.io/project_files/79114f05-41e3-4c1f-a4b7-132d8791291d/1593af0a-5e93-4bdf-ae69-fe3096a19e43_compressed_IMG_1231.webp"
+                src="/images/1593af0a-5e93-4bdf-ae69-fe3096a19e43_compressed_IMG_1231.webp"
                 alt="Liberty the German Shepherd with WNY Mold Dogs branded gear, certified K9 mold detection partner"
                 className="w-full h-auto rounded-3xl"
               />

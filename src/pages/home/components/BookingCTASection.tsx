@@ -7,7 +7,7 @@ const BookingCTASection = () => {
         {/* Brand mark */}
         <div className="flex items-center justify-center mb-8">
           <img
-            src="https://storage.helloreaddy.io/project_files/79114f05-41e3-4c1f-a4b7-132d8791291d/babc4672-f2d4-4b81-9773-9d4efd433311_compressed_ChatGPT-Image-Aug-7-2026-11_09_21-AM.webp"
+            src="/images/babc4672-f2d4-4b81-9773-9d4efd433311_compressed_ChatGPT-Image-Aug-7-2026-11_09_21-AM.webp"
             alt="WNY Mold Dogs"
             className="h-14 w-auto object-contain brightness-0 invert"
           />
