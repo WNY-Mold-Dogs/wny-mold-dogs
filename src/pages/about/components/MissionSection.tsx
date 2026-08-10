@@ -51,16 +51,10 @@ const MissionSection = () => {
             Liberty is ready to help protect your home. Detections start as low as $299, with pricing based on the size and scope of your property.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/services#booking"
-              className="bg-[#7ab648] hover:bg-[#6aa33d] text-white font-semibold px-8 py-3.5 rounded-full transition-colors whitespace-nowrap cursor-pointer"
-            >
+            <Link to="/services#booking" className="bg-[#7ab648] hover:bg-[#6aa33d] text-white font-semibold px-8 py-3.5 rounded-full transition-colors whitespace-nowrap cursor-pointer">
               Book a Detection
             </Link>
-            
-              href="tel:7163277099"
-              className="border border-white/30 hover:border-white text-white font-semibold px-8 py-3.5 rounded-full transition-colors whitespace-nowrap cursor-pointer"
-            >
+            <a href="tel:7163277099" className="border border-white/30 hover:border-white text-white font-semibold px-8 py-3.5 rounded-full transition-colors whitespace-nowrap cursor-pointer">
               Call (716) 327-7099
             </a>
           </div>
