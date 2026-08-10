@@ -61,7 +61,7 @@ const LibertySection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center mb-20">
           {/* Content */}
           <div className="order-2 lg:order-1">
-            <span className="text-[#3a6b1a] text-xs font-bold uppercase tracking-widest">Training &amp; Certification</span>
+            <span className="text-[#3a6b1a] text-xs font-bold uppercase tracking-widest">Training &amp; Experience</span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-5">Built for the Work</h2>
 
             <p className="text-gray-600 text-base leading-relaxed mb-4">
