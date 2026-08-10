@@ -15,7 +15,7 @@ const HeroSection = () => {
                 className="h-10 w-auto object-contain flex-shrink-0 brightness-0 invert opacity-90"
               />
               <span className="text-[#a8d96b] text-xs font-semibold tracking-[0.2em] uppercase">
-                Certified K9 Mold Detection in Western New York
+                Highly Trained K9 Mold Detection in Western New York
               </span>
             </div>
 
@@ -49,7 +49,7 @@ const HeroSection = () => {
             <div className="relative w-full max-w-sm lg:max-w-md">
               <img
                 src="/images/1593af0a-5e93-4bdf-ae69-fe3096a19e43_compressed_IMG_1231.webp"
-                alt="Liberty the German Shepherd with WNY Mold Dogs branded gear, certified K9 mold detection partner"
+                alt="Liberty the German Shepherd with WNY Mold Dogs branded gear, highly trained K9 mold detection partner"
                 className="w-full h-auto rounded-3xl"
               />
               {/* Subtle badge overlay */}
