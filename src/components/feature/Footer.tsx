@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
           </div>
           <p className="text-white/60 text-sm leading-relaxed">
-            Protecting Western New York homes with certified K9 mold detection. Fast, accurate, and non-invasive detection you can trust.
+            Protecting Western New York homes with highly trained K9 mold detection. Fast, accurate, and non-invasive detection you can trust.
           </p>
           <div className="flex items-center gap-2 mt-1">
             <div className="h-px flex-1 bg-white/10"></div>
