@@ -56,7 +56,7 @@ const faqs: FAQCategory[] = [
       },
       {
         q: 'How accurate is K9 mold detection?',
-        a: 'Trained mold detection dogs consistently demonstrate high accuracy in controlled and real-world conditions. Liberty has been specifically trained and certified for mold scent detection, and her skills are regularly reinforced and maintained. Like all detection methods, no tool is 100% perfect, but K9 detection is widely regarded as one of the most effective non-invasive methods available.',
+        a: 'Trained mold detection dogs consistently demonstrate high accuracy in controlled and real-world conditions. Liberty has been specifically trained for mold scent detection, and her skills are regularly reinforced and maintained. Like all detection methods, no tool is 100% perfect, but K9 detection is widely regarded as one of the most effective non-invasive methods available.',
       },
       {
         q: 'Can Liberty tell what type of mold it is?',
