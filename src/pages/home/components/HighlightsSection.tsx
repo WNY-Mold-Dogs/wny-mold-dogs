@@ -1,7 +1,7 @@
 const highlights = [
   {
     icon: 'ri-shield-check-line',
-    title: 'Certified Detection Team',
+    title: 'Highly Trained Detection Team',
     desc: 'Liberty is a professionally trained K9 detection partner with real-world detection experience across Western New York.',
   },
   {
