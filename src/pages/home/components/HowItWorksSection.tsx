@@ -8,7 +8,7 @@ const steps = [
   {
     number: '02',
     title: 'Liberty Detects Mold in Your Home',
-    desc: 'Our certified K9 team arrives at your property and conducts a thorough walkthrough. Liberty\'s trained nose identifies mold presence and location.',
+    desc: 'Our highly trained K9 team arrives at your property and conducts a thorough walkthrough. Liberty\'s trained nose identifies mold presence and location.',
     icon: 'ri-search-line',
   },
   {
