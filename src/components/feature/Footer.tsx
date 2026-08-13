@@ -40,7 +40,7 @@ const Footer = () => {
             {[
               { label: 'Home', path: '/' },
               { label: 'About Our Dog', path: '/about' },
-              { label: 'Services and Booking', path: '/services#booking' },
+              { label: 'Services and Booking', path: '/services' },
               { label: 'FAQ', path: '/faq' },
               { label: 'Book a Detection', path: '/services#booking' },
             ].map((link) => (
