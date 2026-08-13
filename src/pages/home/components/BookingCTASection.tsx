@@ -20,20 +20,14 @@ const BookingCTASection = () => {
           Ready to Protect Your Home?
         </h2>
         <p className="text-white/70 text-base md:text-lg leading-relaxed mb-10">
-          Don&apos;t wait until mold becomes a serious problem. Book a K9 detection today and get the peace of mind you deserve. Detections start at just $500.
+          Don&apos;t wait until mold becomes a serious problem. Book a K9 detection today and get the peace of mind you deserve. Detections start as low as $299, with pricing based on the size and scope of your home.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
-          <Link
-            to="/services#booking"
-            className="bg-[#7ab648] hover:bg-[#6aa33d] text-white font-semibold px-10 py-4 rounded-full transition-all duration-200 whitespace-nowrap cursor-pointer text-base"
-          >
+          <Link to="/services#booking" className="bg-[#7ab648] hover:bg-[#6aa33d] text-white font-semibold px-10 py-4 rounded-full transition-all duration-200 whitespace-nowrap cursor-pointer text-base">
             Book a Detection
           </Link>
-          <a
-            href="tel:7163277099"
-            className="border border-white/40 hover:border-white text-white font-semibold px-10 py-4 rounded-full transition-all duration-200 whitespace-nowrap cursor-pointer text-base"
-          >
+          <a href="tel:7163277099" className="border border-white/40 hover:border-white text-white font-semibold px-10 py-4 rounded-full transition-all duration-200 whitespace-nowrap cursor-pointer text-base">
             Call (716) 327-7099
           </a>
         </div>
