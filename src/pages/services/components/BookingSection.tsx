@@ -14,10 +14,6 @@ const BookingSection = () => {
   const [promoInput, setPromoInput] = useState('');
   const [promoApplied, setPromoApplied] = useState<null | { code: string; label: string; discount: number; type: 'percent' | 'fixed' }>(null);
   const [promoError, setPromoError] = useState('');
-  const [sqftValue, setSqftValue] = useState('');
-
-  const sqftNum = parseInt(sqftValue, 10);
-  const sqftTooLarge = !isNaN(sqftNum) && sqftNum > 2500;
 
   const handleApplyPromo = () => {
     const code = promoInput.trim().toUpperCase();
@@ -181,15 +177,53 @@ const BookingSection = () => {
               </div>
             </div>
 
+            {/* Address, split into required parts */}
             <div className="flex flex-col gap-1.5">
-              <label className="text-gray-700 text-sm font-medium">Property Address *</label>
+              <label className="text-gray-700 text-sm font-medium">Street Address *</label>
               <input
                 type="text"
-                name="property_address"
+                name="street_address"
                 required
-                placeholder="123 Main St, Buffalo, NY 14201"
+                placeholder="123 Main St"
                 className="border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 focus:outline-none focus:border-[#3a6b1a] transition-colors"
               />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-6 gap-5">
+              <div className="sm:col-span-3 flex flex-col gap-1.5">
+                <label className="text-gray-700 text-sm font-medium">City *</label>
+                <input
+                  type="text"
+                  name="city"
+                  required
+                  placeholder="Buffalo"
+                  className="border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 focus:outline-none focus:border-[#3a6b1a] transition-colors"
+                />
+              </div>
+              <div className="sm:col-span-1 flex flex-col gap-1.5">
+                <label className="text-gray-700 text-sm font-medium">State *</label>
+                <input
+                  type="text"
+                  name="state"
+                  required
+                  maxLength={2}
+                  defaultValue="NY"
+                  placeholder="NY"
+                  className="border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 focus:outline-none focus:border-[#3a6b1a] transition-colors uppercase"
+                />
+              </div>
+              <div className="sm:col-span-2 flex flex-col gap-1.5">
+                <label className="text-gray-700 text-sm font-medium">Zip Code *</label>
+                <input
+                  type="text"
+                  name="zip"
+                  required
+                  inputMode="numeric"
+                  pattern="[0-9]{5}"
+                  maxLength={5}
+                  placeholder="14201"
+                  className="border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 focus:outline-none focus:border-[#3a6b1a] transition-colors"
+                />
+              </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -206,8 +240,7 @@ const BookingSection = () => {
                   className="border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 focus:outline-none focus:border-[#3a6b1a] transition-colors bg-white cursor-pointer"
                 >
                   <option value="">Select a service</option>
-                  <option value="Residential - Under 1,500 sq ft">Residential, Under 1,500 sq. ft.</option>
-                  <option value="Residential - 1,500 to 2,500 sq ft">Residential, 1,500–2,500 sq. ft.</option>
+                  <option value="Residential Mold Detection">Residential Mold Detection</option>
                   <option value="Pre-Purchase / Pre-Listing Check">Pre-Purchase / Pre-Listing Check</option>
                   <option value="Visible Mold Swab Sampling">Visible Mold Swab Sampling</option>
                   <option value="Outside Standard Service Area - Custom Quote">Outside Standard Area, Custom Quote</option>
@@ -215,31 +248,18 @@ const BookingSection = () => {
               </div>
               <div className="flex flex-col gap-1.5">
                 <label className="text-gray-700 text-sm font-medium">Approximate Square Footage *</label>
-                <input
-                  type="number"
+                <select
                   name="square_footage"
                   required
-                  min="1"
-                  placeholder="e.g. 1,200"
-                  value={sqftValue}
-                  onChange={(e) => setSqftValue(e.target.value)}
-                  className="border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 focus:outline-none focus:border-[#3a6b1a] transition-colors"
-                />
+                  className="border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 focus:outline-none focus:border-[#3a6b1a] transition-colors bg-white cursor-pointer"
+                >
+                  <option value="">Select a range</option>
+                  <option value="Under 1,499 sq ft">Under 1,499 sq. ft.</option>
+                  <option value="1,500 to 1,999 sq ft">1,500 to 1,999 sq. ft.</option>
+                  <option value="2,000+ sq ft">2,000+ sq. ft.</option>
+                </select>
               </div>
             </div>
-
-            {/* Large property warning */}
-            {sqftTooLarge && (
-              <div className="bg-amber-50 border border-amber-300 rounded-lg px-4 py-3 flex gap-2.5 items-start">
-                <div className="w-4 h-4 flex items-center justify-center mt-0.5 shrink-0">
-                  <i className="ri-alert-line text-amber-500 text-base"></i>
-                </div>
-                <p className="text-amber-700 text-xs leading-relaxed">
-                  <strong>Your property appears to be over 2,500 sq. ft.</strong> Properties this size require a custom quote. Please call or text us directly at{' '}
-                  <a href="tel:7163277099" className="font-semibold underline">(716) 327-7099</a> for accurate pricing before submitting.
-                </p>
-              </div>
-            )}
 
             <div className="flex flex-col gap-1.5">
               <label className="text-gray-700 text-sm font-medium">Preferred Date</label>
